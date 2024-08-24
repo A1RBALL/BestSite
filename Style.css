@@ -10,6 +10,7 @@ body {
 }
 .card {
     color: black;
+    min-width: 300px;
     width: 50%;
     border-top-left-radius: 5px;
     border-top-right-radius: 0px;
