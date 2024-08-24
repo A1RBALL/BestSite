@@ -7,40 +7,42 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <div class="name">
-        <img src="Images/artworks-9AeWIsQOn59I07hH-eQDSCQ-t500x500.png" alt="Аватарка" width="150">
-        <h1 id="MyName">Василий <br> Кузнецов</h1>
+    <div class="container">
+        <div class="name">
+            <a href="index.html"><img src="Images/artworks-9AeWIsQOn59I07hH-eQDSCQ-t500x500.png" alt="Аватарка" width="150" id="Ppic"></a>
+            <h1 id="MyName">Василий <br> Кузнецов</h1>
+        </div>
+        <p class="card">Lorem ipsum dolor sit amet, consectetur <strong>adipisicing elit.</strong> Temporibus beatae reprehenderit autem, quam accusamus natus eos expedita? Perspiciatis, quidem dolorum. Suscipit fuga temporibus voluptas hic vero necessitatibus dignissimos totam nesciunt.</p>
+        Про мои хобби вы можете узнать <a href="Lists.html">тут</a><br>
+        А про мой опыт работы <a href="Work.html">здесь</a>
+        <hr color="indigo">
+        <h3>Полезные (или не очень) ссылки:</h3>
+        <div class="links">
+            <a href="https://vk.com/a1rball" target="_blank">Я ВКонтакте</a> <strong>|</strong> <a href="https://t.me/the_a1rball" target="_blank">Я в Телеграм</a> <strong>|</strong> <a href="https://google.com" target="_blank">Гугл</a>
+        </div>
+        <hr color="indigo">
+        <h3>Связаться со мной (зачем-то)</h3>
+        <form>
+            <div>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Васильев Василий">
+            </div>
+            <div>
+                <label for="email">Ваша почта:</label>
+                <input type="email" id="email" placeholder="YaVasiliy@Vasya.com">
+            </div>
+            <div>
+                <label for="cardnum">Номер карты:</label>
+                <input type="number" id="cardnum" placeholder="Это очень важно!!" max="9999999999999999">
+                <label for="cardcode">CVV код:</label>
+                <input type="number" id="cardcode" placeholder="И это тоже!!!" max="999">
+            </div> 
+            <div>
+                <label for="text">Ваше сообщение:</label><br>
+                <textarea id="text" placeholder="Твой сайт самый лучший в мире!"></textarea>
+            </div>
+            <button type="submit">Не отправить!</button>
+        </form>
     </div>
-    <p class="card">Lorem ipsum dolor sit amet, consectetur <strong>adipisicing elit.</strong> Temporibus beatae reprehenderit autem, quam accusamus natus eos expedita? Perspiciatis, quidem dolorum. Suscipit fuga temporibus voluptas hic vero necessitatibus dignissimos totam nesciunt.</p>
-    Про мои хобби вы можете узнать <a href="Lists.html">тут</a><br>
-    А про мой опыт работы <a href="Work.html">здесь</a>
-    <hr color="indigo">
-    <h3>Полезные (или не очень) ссылки:</h3>
-    <div class="links">
-        <a href="https://vk.com/a1rball" target="_blank">Я ВКонтакте</a> <strong>|</strong> <a href="https://t.me/the_a1rball" target="_blank">Я в Телеграм</a> <strong>|</strong> <a href="https://google.com" target="_blank">Гугл</a>
-    </div>
-    <hr color="indigo">
-    <h3>Связаться со мной (зачем-то)</h3>
-    <form>
-        <div>
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Васильев Василий">
-        </div>
-        <div>
-            <label for="email">Ваша почта:</label>
-            <input type="email" id="email" placeholder="YaVasiliy@Vasya.com">
-        </div>
-        <div>
-            <label for="cardnum">Номер карты:</label>
-            <input type="number" id="cardnum" placeholder="Это очень важно!!" max="9999999999999999">
-            <label for="cardcode">CVV код:</label>
-            <input type="number" id="cardcode" placeholder="И это тоже!!!" max="999">
-        </div> 
-        <div>
-            <label for="text">Ваше сообщение:</label><br>
-            <textarea id="text" placeholder="Твой сайт самый лучший в мире!"></textarea>
-        </div>
-        <button type="submit">Не отправить!</button>
-    </form>
 </body>
 </html>

@@ -3,7 +3,7 @@ h1 {
     color: magenta;
 }
 body {
-    background-color: rgb(205, 192, 243);
+    background-color: rgb(87, 37, 87);
     color: #30223e;
     font-family: Comfortaa;
     font-size: 16px;
@@ -34,4 +34,15 @@ body {
 #MyName{
     align-self: center;
     padding-left: 3px;
+}
+.container{
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(205, 192, 243);
+    padding:2px;
+}
+
+#Ppic{
+    box-shadow: 4px 4px 14px rgba(37, 5, 40, 0.25);
 }
