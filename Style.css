@@ -21,3 +21,16 @@ body {
     font-size: 14px;
     padding: 2px;
 }
+.name {
+    display:flex;
+    /* border-right: 2px solid black; */
+    /* border-bottom: 2px solid black; */
+    /* border-bottom-right-radius: 50px; */
+    background-color: rgba(32, 35, 87, 0.075);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#MyName{
+    align-self: center;
+    padding-left: 3px;
+}
