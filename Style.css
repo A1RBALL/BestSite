@@ -30,6 +30,7 @@ body {
     background-color: rgba(32, 35, 87, 0.075);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    max-height: 150px;
 }
 #MyName{
     align-self: center;
@@ -40,9 +41,10 @@ body {
     height: 100vh;
     margin: auto;
     background-color: rgb(205, 192, 243);
-    padding:2px;
+    padding:5px;
 }
 
 #Ppic{
-    box-shadow: 4px 4px 14px rgba(37, 5, 40, 0.25);
+    box-shadow: 4px 4px 10px rgba(37, 5, 40, 0.25);
+    border-radius: 5px;
 }
